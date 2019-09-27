@@ -1,0 +1,125 @@
+body{
+    background:#080808;
+    height: 100%;
+    overflow: hidden;
+}
+
+.colImg{
+    width: 100%;
+
+}
+
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.firstAndSecondRow{
+    height:33vh;
+    margin-bottom:30px;
+}
+
+.thirdRow{
+    height:200px;
+    margin-top:-82px;
+}
+
+.logo{
+    margin:0 auto;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    position:absolute;
+    z-index: 9999;
+    width:765px;
+}
+
+.getStarted{
+    margin:0 auto;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    position:absolute;
+    z-index: 9999;
+    width:280px;
+    height: 60px;
+    background: #2AC940;
+    font-family: helvetica;
+    color: white;
+    letter-spacing: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border:2px solid #2AC940
+
+}
+
+.meangirls{
+    width:70%;
+}
+
+.johnWick{
+    width:100%;
+    margin-left:-80px;
+
+}
+
+.ealy{
+    margin-left:-50px;
+    width:75%;
+}
+
+.halloween{
+    margin-left:-80px;
+    margin-top:-50px;
+    width:60%;
+}
+
+.jeepers{
+    opacity: 0.82;
+    margin-left:-20px;
+    margin-top: -59px;
+    z-index: 1000 !important;
+    position: absolute;
+    width: 130%;
+}
+
+.taraji{
+    z-index: -1000 !important;
+    margin-top:-11px;
+}
+
+.birdman{
+    width:85% !important;
+    z-index: 1000 !important;
+    position: absolute;
+}
+
+.titanic{
+    margin-left:-54px;
+    margin-top:-15px;
+    z-index: 1002;
+    width:120%;
+
+}
+
+.neon{
+    width:105%;
+    margin-top:-20px;
+    margin-left:-40px;
+}
+
+.godfather{
+    width:55% !important;
+    z-index: 1001;
+    position: absolute;
+    margin-top:-20px;
+    margin-left:15px;
+}
+
+.welcomeContainer{
+    margin-top:150px;
+}
+.skipAheadText{
+    color: #33E1FF;
+}
