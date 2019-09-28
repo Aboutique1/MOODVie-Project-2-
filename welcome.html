@@ -11,19 +11,20 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 
-<body>
+<body id="welcomeBody">
+    <img class="moodvieLogo" src="MOODVIEiconsandposter/MOODVIELOGO/MOODVie.jpg">
     <div class="container welcomeContainer">
-            <h1 class="text-center text-light">Hello</h1><br><br>
-            <h1 class="text-center text-light">Welcome to MOODVIE</h1><br><br>
-            <h1 class="text-center text-light">Would You Like To Take the MOOD TEST ?</h1>
+            <h1 class="text-center text-light welcomeText">Hello</h1>
+            <h1 class="text-center text-light welcomeText">Welcome to MOODVIE</h1>
+            <h1 class="text-center text-light welcomeText">Would You Like To Take the MOOD TEST ?</h1>
         <div class="row">
             <div class="col-6 text-center">
-                    <button type="button" class="btn btn-dark"><a href="results.html">NO</a></button><br>
-                    <p class="skipAheadText">I Would Like to Skip Ahead</p>
+                    <a href="results.html" class="btn welcomeButtons welcomeButtonColor"><span class="welcomeButtonText">NO</span></a><br>
+                    <p class="skipAheadText">I WOULD LIKE TO SKIP AHEAD</p>
                 </div>
             <div class="col-6 text-center">
-                    <button type="button" class="btn btn-dark"><a href="survey.html">YES</a></button><br>
-                    <p class="takeTestText">I'M IN A GOOD MOOD</p>
+                    <a href="survey.html" class="btn welcomeButtons welcomeButtonColor"><span class="welcomeButtonText">YES</span></a><br>
+                    <p class="takeTestText">I'M <span class="takeTestIn">IN</span> A GOOD MOOD</p>
 
                 </div>
         </div>
